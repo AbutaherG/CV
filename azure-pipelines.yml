@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  name: 'Default'
-  vmImage: 'selfagent'
+  name: 'aws-agents'
+  vmImage: 'ubuntu-host'
 
 steps:
 - task: NodeTool@0
